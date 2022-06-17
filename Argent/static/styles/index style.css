@@ -604,14 +604,14 @@ ul li{
     }
     nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .hide, .hello{
         display: flex;
     }
     .submit{
-        width: 15vw;
+        width: 12vw;
         color: white;
         background-color: rgb(255, 135, 91);
         margin-top: 0vh;
@@ -624,6 +624,9 @@ ul li{
         text-transform: uppercase;
         font-weight: bolder;
         
+    }
+    .logo-text{
+        display: none;
     }
     
 
