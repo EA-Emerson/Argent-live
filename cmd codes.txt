@@ -1,0 +1,299 @@
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:10
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:19
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:32
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:37
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:41
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:46
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:51
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 01:59:59
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:00:11
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:00:18
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:00:23
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:00:34
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:00:50
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:00:53
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:01
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:06
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:10
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:27
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:32
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:51
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:01:56
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:02:00
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\mylist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:04:05
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\mylist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:04:25
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\mylist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:04:34
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:07:36
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:07:43
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:07:50
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:08:05
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:09:32
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:09:37
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:09:45
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\hp\Desktop\todoapp\todolist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2022 - 02:09:50
+Django version 4.0.4, using settings 'mylist.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.

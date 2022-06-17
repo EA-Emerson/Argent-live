@@ -1,0 +1,382 @@
+{% comment %} <html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argent website</title> {% endcomment %}
+    {% comment %} <link rel="stylesheet" type="text/css" href="../../static/styles/style2.css">
+    <link rel="stylesheet" type="text/css" href="../../static/styles/style3.css"> {% endcomment %}
+{% comment %} </head>
+<body>
+
+    {% for message in messages %}
+    <div class='alert alert-{{message.tags}} alert-dismissible fade show' role='alert'>
+        <strong>Message:</strong> {{ message }}
+        <button type='button' class='close'data-dismissible='alert' aria-label='close'>
+            <span aria-hidden='true'>&times;</span>
+        </button>
+    </div> 
+    {% endfor %}
+
+    <h3>Welcome to Geeks for Geeks</h3>
+
+    {% if user.is_authenticated %}
+    <h3>Hello {{ fname }} </h3>
+    <h4>You have successfully logged in</h4>
+    <button type='submit'><a href='/signout'>Sign Out</a></button>
+    
+    
+    {% else %}
+    <button type='submit'><a href='/signup'>Sign Up</a></button>
+    <button type='submit'><a href='/signin'>Sign In</a></button>
+    
+    {% endif %}
+
+
+</body>
+</html> {% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argent website</title>
+
+    {% comment %} <link rel="stylesheet" type="text/css" href="../../static/styles/style.css"> {% endcomment %}
+    <link rel="stylesheet" type="text/css" href="../../static/styles/index style.css">
+</head>
+<body>
+    {% comment %} {% csrf_token %} {% endcomment %}
+
+    
+    <nav class="navbar">
+        <span class="logo">
+            <img src="../../static/img/logo image.svg" alt="this is the logo image" class="logo-img">
+            <img src="../../static/img/logo name.svg" alt="This is the logo text" class="logo-text">
+        </span>
+
+        <ul class="nav-links">
+            <li class="language">
+                <select class="select-language">
+                    <option value="1">English</option>
+                    <option value="2">French</option>
+                    <option value="3">Spanish</option>
+                    <option value="4">German</option>
+                    <option value="5">Portuguese</option>
+             </select>
+            </li>
+            <li class="nav-link"><a href="#">Learn</a></li>
+            <li class="nav-link"><a href="#">Vault</a></li>
+            <li class="nav-link"><a href="#">Argent X</a></li>
+            <li class="nav-link"><a href="#">Blog</a></li>
+            <li class="nav-link"><a href="#">Careers</a></li>
+            <li class="nav-link"><a href="#" class="support">Support</a></li>
+            {% if user.is_authenticated %}
+                <li class="nav-link">Hello {{ fname }}</li>
+                <li class="nav-link"><button type='submit' class='submit'><a href='/signout'>Sign Out</a></button></li>
+
+            {% else %}
+            <button type='submit' class='submit'><a href='signup'>Sign Up</a></button>
+            <button type='submit' class='submit'><a href='signin'>Sign In</a></button>
+
+            {% endif %}
+
+        </ul>
+        <div class='hello'>
+            {% if user.is_authenticated %}
+            <li class="nav-link">Hello {{ fname }}</li>
+            <li class="nav-link"><button type='submit' class='submit'><a href='/signout'>Sign Out</a></button></li>
+
+            {% else %}
+            <button type='submit' class='submit'><a href='signup'>Sign Up</a></button>
+            <button type='submit' class='submit'><a href='signin'>Sign In</a></button>
+
+            {% endif %}
+        </div>
+
+            <div class="menulogo">
+                <img src="../../static/img/menu-button-of-three-horizontal-lines.png" alt="" class="menulogoimg">
+            </div>
+            <ul class="hidden_ul">
+                <a class="cancel" href="#" id="nav_close">x</a>
+                <li class="nav-link"><a href="#">Learn</a></li>
+                <li class="nav-link"><a href="#">Vault</a></li>
+                <li class="nav-link"><a href="#">Argent X</a></li>
+                <li class="nav-link"><a href="#">Blog</a></li>
+                <li class="nav-link"><a href="#">Careers</a></li>
+                <li class="nav-link"><a href="#">Support</a></li>
+                        
+                    </ul>
+                </div>
+                {% comment %} {% else %}
+                <!-- <li class="nav-link"><a href="#">Home</a></li> -->
+                <li class="nav-link"><a href="signin">Sign In</a></li>
+                
+                <!-- <li class="nav-link"><a href="#">Argent X</a></li>
+                <li class="nav-link"><a href="#">Blog</a></li> -->
+                <a class="cancel" href="#" id="nav_close">x</a>
+                <li class="nav-link"><a href="signup">Sign Up</a></li>
+                <li class="nav-link"><a href="#">About Us</a></li>
+                {% endif %} {% endcomment %}
+            </ul>
+    </nav>
+
+    {% for message in messages %}
+    <div class='alert alert-{{message.tags}} alert-dismissible fade show' role='alert'>
+        <strong>Message:</strong> {{ message }}
+        <button type='button' class='close'data-dismissible='alert' aria-label='close'>
+            <span aria-hidden='true'>&times;</span>
+        </button>
+    </div> 
+    {% endfor %}
+
+    <div class="part1">
+        <div class="right_p1 imgshow">
+            <div class="col-6 imgshow">
+                <img src="../../static/img/smart phone picture.png" alt="phone img" class="phone1">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="left_p1">
+                <p>
+                    <h1 class="big">
+                        The best of Ethereum. A fraction of the cost.
+                    </h1>
+                </p>
+    
+                <p class="small">
+                    Buy, earn, stake and trade on Ethereum Layer 2 with low fees & bulletproof security
+                </p>
+    
+                <div class="applinks">
+                    <div class="applestore">
+                        <a href="#">
+                            <img src="../../static/img/apple app store link.svg" alt="link to apple store" class="apple">
+                        </a>
+    
+                        <a href="#">
+                            <img src="../../static/img/google playstore link.svg" alt="link to google store" class="google">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right_p1">
+            <div class="col-6 imghide">
+                <img src="../../static/img/smart phone picture.png" alt="phone img" class="phone">
+            </div>
+        </div>
+    </div>
+
+    <div class="part2">
+        <div class="part2txt">
+            Own it
+        </div>
+        <div class="part2img">
+            <div class="col-3">
+                <img src="../../static/img/earn 5% by staking eth.png" class="img2" alt="">
+                <a href="#" class="prt2txt">Earn 5% by staking ETH</a>
+            </div>
+            <div class="col-3">
+                <img src="../../static/img/earn up to 15% on USDC and DAI.png" class="img2" alt="">
+                <a href="#" class="prt2txt">Earn up to 15% on USDC and DAI</a>
+            </div>
+            <div class="col-3">
+                <img src="../../static/img/buy with card or bank transfer.png" class="img2" alt="">
+                <a href="#" class="prt2txt">Buy with card or bank transfer</a>
+            </div>
+            <div class="col-3">
+                <img src="../../static/img/trade tokens in a tap.png" class="img2" alt="">
+                <a href="#" class="prt2txt">Trade tokens in a tap</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="part3">
+        <div class="col-6">
+            <div class="part3txt">
+                <div class="big3">
+                    Low fees, <br> high speeds
+                </div>
+                <div class="small3">
+                    Up to 100X cheaper fees than Etheruem thanks to zkSync's Layer 2 network. With near instant speed.
+                </div>
+                <div class="link">
+                    <a href="#" class="part3link">Learn more about zkSync</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="right_p3">
+                <img src="../../static/img/Beside low speeds text.png" width="100%" alt="Low fees, high speed" class="img3">
+            </div>
+        </div>
+    </div>
+
+    <div class="part4">
+        <div class="col-6">
+            <div class="right_p4">
+                <img src="../../static/img/beside invest, stake and earn text.png" width="100%" alt="" class="img4">
+            </div>
+        </div>
+        
+        <div class="col-6">
+            <div class="part4txt">
+                <div class="big4">
+                    Invest, stake <br> and earn
+                </div>
+                <div class="small4">
+                    Easily earn up to 15% interest on your crypto through our partners Yearn, Lido and grow
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part5">
+        <div class="part5txt">Trusted by <br> crypto leaders</div>
+        <div class="part5boxes">
+            <div class="col-4">
+                <div class="box1">
+                    <div class="box11">"We need wide adoption of social recovery wallets."</div>
+                    <div class="box12">
+                        <a href="#"><img src="../../static/img/co founder, eth.png" alt="" class="box12img"></a>
+                        Vitalis Butering, Co-founder, Ethereum
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-4">
+                <div class="box2">
+                    <div class="box21">"Argent has done so much for making DeFi a user friendly experience."</div>
+                    <div class="box22">
+                        <a href="#"><img src="../../static/img/founder and ceo, aave.png" alt="" class="box22img"></a>
+                        Sfani Kulechov, Founder and CEO, Aave
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box3">
+                    <div class="box31">"Argent is crypto's iphone moment-highly secure with a user experience that rivals the best traditional apps."</div>
+                    <div class="box32">
+                        <a href="#"><img src="../../static/img/head of engineering.png" alt="" class="box32img"></a>
+                        Wouter Kampmann Head of Engineering, Maker DEO
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part6">
+        <div class="col-6">
+            <div class="part6txt">
+                <div class="big6">
+                    Buy Crypto on Layer 2
+                </div>
+                <div class="small6">Use card, bank transfer or Apple pay, with very low fees</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="../../static/img/Beside buy crypto on layer 2.png" width="100%" class="img6" alt="">
+        </div>
+    </div>
+
+    <div class="part7">
+        <div class="col-6">
+            <img src="../../static/img/beside trade for less.png" width="100%" alt="" class="img7">
+        </div>
+        <div class="col-6">
+            <div class="part7txt">
+                <div class="big7">
+                    Trade for less
+                </div>
+                <div class="small7">
+                    Trade tokens for fees as low as $1
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part8">
+        <div class="col-6">
+            <div class="part8txt">
+                <div class="big8">
+                    Bulletproof security
+                </div>
+                <div class="small8">
+                    Easily recover your argent wallet without a paper backup. Only you can access your assets. Not us. Not anyone else.
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="../../static/img/Beside bullet proof security.png" width="100%" alt="" class="img8">
+        </div>
+    </div>
+
+    <div class="part9">
+        <div class="logo9">
+            <img src="../../static/img/logo image.svg" class="pic9" alt="">
+            <p class="p9">Own it</p>
+        </div>
+
+        <div class="storelinks">
+            <a href="#" class="applelink9"><img src="../../static/img/apple app store link 2.svg" alt="" class="apple"></a>
+            <a href="#" class="googlelink9"><img src="../../static/img/google playstore link 2.svg" alt="" class="google"></a>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="footerflex">
+                <img src="../../static/img/logo image.svg" alt="this is the footer image" class="footer-img">
+                <img src="../../static/img/logo name 2.svg" alt="This is the footer text" class="footer-text">
+            </div>
+            <div class="footerlists">
+                <ul class="f1">
+                    <li><a href="#" class="footerlinks1">Argent</a></li>
+                    <li><a href="#" class="footerlinks">FAQ</a></li>
+                    <li><a href="#" class="footerlinks">Press</a></li>
+                    <li><a href="#" class="footerlinks">Community Coverage</a></li>
+                    <li><a href="#" class="footerlinks">Argent Shop</a></li>
+                </ul>
+
+
+                <ul class="f2">
+                    <li><a href="#" class="footerlinks1">Company</a></li>
+                    <li><a href="#" class="footerlinks">Join Our Team</a></li>
+                    <li><a href="#" class="footerlinks">Terms of Service</a></li>
+                    <li><a href="#" class="footerlinks">Privacy Policy</a></li>
+                </ul>
+                <ul class="f3">
+                    <li><a href="#" class="footerlinks1">Security and Support</a></li>
+                    <li><a href="#" class="footerlinks">Get help</a></li>
+                    <li><a href="#" class="footerlinks">Security Center</a></li>
+                    <li><a href="#" class="footerlinks">Development Docs</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <div class="part10">
+            <div class="part10txt">HQ London, made with all the love across Europe</div>
+            <div class="part10logos">
+                <a href="#" class="twitter">
+                    <img src="../../static/img/twitter under footer.svg" alt="" class="part10logo">
+                </a>
+                <a href="#" class="youtube">
+                    <img src="../../static/img/youtube under the footer.svg" alt="" class="part10logo">
+                </a>
+                <a href="#" class="discord">
+                    <img src="../../static/img/discord under the footer.svg" alt="" class="part10logo">
+                </a>
+                <a href="#" class="github">
+                    <img src="../../static/img/github under the footer.svg" alt="" class="part10logo">
+                </a>
+            </div>
+        </div>
+<script src="../../static/Scripts/scripts.js"></script>
+</body>
+</html>

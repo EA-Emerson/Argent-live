@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="../../static/styles/form style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="logo">
+            <img src="../../static/img/logo image.svg" alt="this is the logo image" class="logo-img">
+            <img src="../../static/img/logo name.svg" alt="This is the logo text" class="logo-text">
+        </span>
+
+        <ul class="nav-links">
+            <li class="language">
+                <select class="select-language">
+                    <option value="1">English</option>
+                    <option value="2">French</option>
+                    <option value="3">Spanish</option>
+                    <option value="4">German</option>
+                    <option value="5">Portuguese</option>
+             </select>
+            </li>
+            <li class="nav-link"><a href="#">Learn</a></li>
+            <li class="nav-link"><a href="#">Vault</a></li>
+            <li class="nav-link"><a href="#">Argent X</a></li>
+            <li class="nav-link"><a href="#">Blog</a></li>
+            <li class="nav-link"><a href="#">Careers</a></li>
+            <li class="nav-link"><a href="#" class="support">Support</a></li>
+        </ul>
+        <div class="menulogo">
+            <img src="../../static/img/menu-button-of-three-horizontal-lines.png" alt="" class="menulogoimg">
+        </div>
+    </nav>
+
+    {% for message in messages %}
+    <div class='alert alert-{{message.tags}} alert-dismissible fade show' role='alert'>
+        <strong>Message:</strong> {{ message }}
+        <button type='button' class='close'data-dismissible='alert' aria-label='close'>
+            <span aria-hidden='true'>&times;</span>
+        </button>
+    </div> 
+    {% endfor %}
+
+    <form action="/signup" method='post' class="form">
+        {% csrf_token %}
+        <header>
+            Sign Up
+        </header>
+        <div class="inputs">
+            <label for="" class="input_labels">Username *</label><br>
+            <input type='text' id='username' name='username' placeholder="Create a username (Only letters and numbers)" required>
+            <br>
+
+            <label for="" class="input_labels">First Name *</label><br>
+            <input type='text' id='fname' name='fname' placeholder="Enter Your First Name" required>
+            <br>
+
+            <label for="" class="input_labels">Last Name *</label><br>
+            <input type='text' id='lname' name='lname' placeholder="Enter Your Last Name" required>
+            <br>
+
+            <label for="" class="input_labels">Email Address *</label><br>
+            <input type='email' id='email' name='email' placeholder="Enter Your Email Address" required>
+            <br>
+
+            <label for="" class="input_labels">Password *</label><br>
+            <input type='password' id='pass1' name='pass1' placeholder="Create a password" required>
+            <br>
+
+            <label for="" class="input_labels">Confirm Your Password *</label><br>
+            <input type='password' id='pass2' name='pass2' placeholder="Confirm Your Password" required>
+            <br>
+        </div>
+
+        <p class="confirm">
+            <a href="#" class="confirm_links">Terms of Use & Privacy Policy</a>
+        </p>
+        <button type='submit' a href='signin' class="submit">Sign Up</button>
+
+        <div class="new_account">
+            <p class="sign_up">
+                Already have an account?
+                
+            </p>
+            <a href="signin" class="sign_up_link">Sign In</a>
+        </div>
+    </form>
+</body>
+</html>

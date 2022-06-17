@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+
+
+
+nav{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    border-bottom: solid rgb(236, 236, 236);
+    /* position: fixed; */
+    min-width: 40vw;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+}
+
+nav ul li{
+    padding: 16px;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.hidden_ul{
+    display: none;
+    position: absolute;
+}
+.error_handler{
+    background-color: red;
+    /* padding-bottom: 20px; */
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.menulogo{
+    display: none;
+}
+
+.support{
+    padding-right: 70px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.select-language{
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 10px;
+    height: max-content;
+    box-shadow: 2px 0px 2px rgb(214, 214, 214),
+    0px -3px 2px rgb(209, 209, 209),
+    0px 3px 2px rgb(209, 209, 209); 
+}
+
+input{
+    padding-left: 1.5vw;
+    width: 25vw;
+    background-color: rgb(220, 220, 220, 0.3);
+    margin-top: .3vh;
+    margin-bottom: 3vh;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.inputs{
+    margin-top: 4vh;
+}
+
+.input_labels{
+    font-size: 13px;
+}
+
+.txt_link{
+    display: flex;
+    padding-top: 1vh;
+    font-size: 14px;
+    justify-content: center;
+    width: 100%;
+}
+.links_txt{
+    padding-right: .5vw;
+    text-align: center;
+    display: flex;
+}
+
+header{
+    height:10vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 135, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.alert{
+    padding: 2.5vh 0px;
+    text-align: center;
+}
+
+.fill{
+    color: rgb(252, 252, 252);
+    font-weight: lighter;
+    padding-top: 3vh;
+    font-size: 15px;
+}
+
+.submit{
+    width: 12vw;
+    color: white;
+    background-color: rgb(255, 135, 91);
+    margin-top: 5vh;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(255, 135, 91, 0.9);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 135, 91);
+}
+
+.sign_up_link{
+    text-transform: uppercase;
+    padding-top: 1vh;
+    font-size: 14px;
+}
+.sign_up{
+    font-size: 13px;
+}
+
+.new_account{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5vh;
+}
+
+@media screen and (max-width:700px){
+    nav ul{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .navbuttons{
+        display: none;
+    }
+    .logo{
+        margin-left: 2vw;
+    }
+    .menulogo{
+        display: flex;
+        padding-right: 3vw;
+
+    }
+    .menulogoimg{
+        width: 5vw;
+        height: auto;
+        
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        min-width:64vw;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        border-radius: 10px;
+        height: max-content;
+        box-shadow: 2px 0px 2px rgb(214, 214, 214),
+        0px -3px 2px rgb(209, 209, 209),
+        0px 3px 2px rgb(209, 209, 209); 
+    }
+
+    header{
+        height:10vh;
+        /* padding: 5vh auto; */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color: rgb(255, 135, 91);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* margin: 0 3vw; */
+    }
+
+    input{
+        padding-left: 1.5vw;
+        width: 58vw;
+        background-color: rgb(220, 220, 220, 0.3);
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        border: none;
+        border-radius: 4px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;    
+    }
+
+    .inputs{
+        margin-top: 2.5vh;
+    }
+
+    .txt_link{
+        display: flex;
+        padding-top: 0vh;
+        padding-bottom: 1vh;
+        font-size: 13px;
+        justify-content: center;
+        width: 100%;
+    }
+    .links_txt{
+        padding-right: .5vw;
+        float: right;
+        text-align: right;
+        display: flex;
+    }
+
+    .submit{
+        width: 25vw;
+        color: white;
+        background-color: rgb(255, 135, 91);
+        margin-top: 3vh;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+    
+    .submit:hover{
+        cursor: pointer;
+        background-color: rgb(255, 135, 91, 0.9);
+    }
+    
+    .confirm{
+        padding-top: 3vh;
+    }
+
+
+    .sign_up_link{
+        text-transform: uppercase;
+        padding-top: .5vh;
+        
+    }
+    .new_account{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4vh;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2vh;
+        font-size: 13px;
+    }
+}
